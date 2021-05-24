@@ -42,18 +42,14 @@ renderExamples es =
 
 
 skipEth :: [FilePath]
-skipEth =
-  [ "tut-7-rpc"
-  ]
+skipEth = []
 
 
 skipAlgo :: [FilePath]
 skipAlgo =
-  [ "tut-7-rpc"
-
   -- 2021-05-19: Chris asked that these be disabled until the replacement
   -- Algorand dev node becomes available (or when we can speed up the tests)
-  , "nft-auction"
+  [ "nft-auction"
   , "workshop-fomo-generalized"
   ]
 
